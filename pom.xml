@@ -40,7 +40,8 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:AndresQuijano/guru-spring-2-pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/AndresQuijano/guru-spring-2-pet-clinic.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
 
 </project>
