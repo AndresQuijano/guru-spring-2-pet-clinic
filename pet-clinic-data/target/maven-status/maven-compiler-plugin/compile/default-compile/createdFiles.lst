@@ -1,5 +1,8 @@
+guru\springframework\guruspring2petclinic\model\Vet$VetBuilder.class
 guru\springframework\guruspring2petclinic\services\springdatajpa\VisitSDJpaService.class
 guru\springframework\guruspring2petclinic\repositories\VetRepository.class
+guru\springframework\guruspring2petclinic\model\Visit$VisitBuilder.class
+guru\springframework\guruspring2petclinic\model\Owner$OwnerBuilder.class
 guru\springframework\guruspring2petclinic\services\springdatajpa\PetSDJpaService.class
 guru\springframework\guruspring2petclinic\services\VetService.class
 guru\springframework\guruspring2petclinic\services\CrudService.class
@@ -10,9 +13,11 @@ guru\springframework\guruspring2petclinic\model\Visit.class
 guru\springframework\guruspring2petclinic\services\map\SpecialtyMapService.class
 guru\springframework\guruspring2petclinic\repositories\PetTypeRepository.class
 guru\springframework\guruspring2petclinic\model\PetType.class
+guru\springframework\guruspring2petclinic\model\Pet$PetBuilder.class
 guru\springframework\guruspring2petclinic\model\Vet.class
 guru\springframework\guruspring2petclinic\services\map\OwnerMapService.class
 guru\springframework\guruspring2petclinic\model\Specialty.class
+guru\springframework\guruspring2petclinic\model\PetType$PetTypeBuilder.class
 guru\springframework\guruspring2petclinic\services\PetTypeService.class
 guru\springframework\guruspring2petclinic\repositories\VisitRepository.class
 guru\springframework\guruspring2petclinic\services\PetService.class
@@ -23,6 +28,7 @@ guru\springframework\guruspring2petclinic\services\map\VetMapService.class
 guru\springframework\guruspring2petclinic\services\map\AbstractMapService.class
 guru\springframework\guruspring2petclinic\services\springdatajpa\PetTypeSDJpaService.class
 guru\springframework\guruspring2petclinic\model\BaseEntity.class
+guru\springframework\guruspring2petclinic\model\Specialty$SpecialtyBuilder.class
 guru\springframework\guruspring2petclinic\services\OwnerService.class
 guru\springframework\guruspring2petclinic\services\map\PetMapService.class
 guru\springframework\guruspring2petclinic\services\map\VisitMapService.class
