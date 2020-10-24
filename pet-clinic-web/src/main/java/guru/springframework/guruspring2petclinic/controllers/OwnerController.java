@@ -1,6 +1,6 @@
 package guru.springframework.guruspring2petclinic.controllers;
 
-import guru.springframework.guruspring2petclinic.services.map.OwnerMapService;
+import guru.springframework.guruspring2petclinic.services.OwnerService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,15 +8,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/owners")
 @Controller
 public class OwnerController {
-    private final OwnerMapService ownerMapService;
+    private final OwnerService ownerService;
 
-    public OwnerController(OwnerMapService ownerMapService) {
-        this.ownerMapService = ownerMapService;
+    public OwnerController(OwnerService ownerService) {
+        this.ownerService = ownerService;
     }
+
 
     @RequestMapping({"","/","/index","/index.html"})
     public String listOwners(Model model){
-        model.addAttribute("owners", ownerMapService.findAll());
+        model.addAttribute("owners", ownerService.findAll());
 
         return "owners/index";
     }
